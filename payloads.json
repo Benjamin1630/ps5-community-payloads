@@ -1,0 +1,33 @@
+{
+  "name": "Community Payloads",
+  "payloads": [
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "filename": "tailscale.elf",
+      "url": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.1/tailscale-0.7.1.elf",
+      "version": "v0.7.1",
+      "last_update": "2026-10-06",
+      "description": "Tailscale for jailbroken PS5: reach the console over your tailnet for Remote Play and stream to it with Moonlight/Sunshine (unofficial)",
+      "category": "Network",
+      "checksum": "af320493c8e2fc3443b8f42496ac11aa3db77b112e95777706d835eccd304cb9",
+      "author": "holdmysocks",
+      "source": "https://github.com/holdmysocks/ps5-tailscale/releases",
+      "details_url": "https://github.com/holdmysocks/ps5-tailscale"
+    },
+    {
+      "id": "prosperomgr",
+      "name": "ProsperoMgr",
+      "filename": "ProsperoMgr.elf",
+      "url": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.1/ProsperoMgr.elf",
+      "version": "v1.1",
+      "last_update": "2026-09-28",
+      "description": "All-In-One manager for your PS5!",
+      "category": "Utilities & Tools",
+      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
+      "author": "notmaj0r",
+      "source": "https://github.com/notmaj0r/ProsperoMgr/releases",
+      "details_url": "https://github.com/notmaj0r/ProsperoMgr"
+    }
+  ]
+}
