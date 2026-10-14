@@ -1,5 +1,8 @@
 {
   "name": "Community Payloads",
+  "repository": {
+    "homepage": "https://github.com/Benjamin1630/ps5-community-payloads"
+  },
   "payloads": [
     {
       "id": "tailscale",

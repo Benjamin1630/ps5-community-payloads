@@ -40,6 +40,13 @@ for p in payloads:
     assert re.fullmatch(r"[0-9a-f]{64}", p["checksum"]), p
     assert p["url"].startswith("https://"), p
 
+# "repository" must sit between "name" and "payloads": Payload Manager <=0.5.x reads each object from a '{' to
+# the next '}', so without an object here the wrapper swallows the first payload and it takes the catalog's name.
+catalog = {
+    "name": "Community Payloads",
+    "repository": {"homepage": "https://github.com/Benjamin1630/ps5-community-payloads"},
+    "payloads": payloads,
+}
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "payloads.json"), "w") as f:
-    json.dump({"name": "Community Payloads", "payloads": payloads}, f, indent=2, ensure_ascii=False)
+    json.dump(catalog, f, indent=2, ensure_ascii=False)
     f.write("\n")
